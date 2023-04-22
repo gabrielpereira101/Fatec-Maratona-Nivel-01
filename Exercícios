@@ -1,15 +1,16 @@
 #include <stdio.h>
-
  
 int main() {
  
-    int A, B, SOMA;
+    int dis;
+    double km, total;
     
-    scanf("%d%d", &A, &B);
+    scanf("%d", &dis);
+    scanf("%lf", &km);
     
-    SOMA = A + B;
+    total = dis/km;
     
-    printf("SOMA = %d", SOMA);
+    printf("%.3lf km/l\n", total);
  
     return 0;
 }
