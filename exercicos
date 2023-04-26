@@ -1,15 +1,14 @@
 #include <stdio.h>
 
-int main() {
-    int n;
-    scanf("%d", &n);
-
-    for (int i = 0; i < n; i++) {
-        float a, b, c;
-        scanf("%f %f %f", &a, &b, &c);
-        float media = (a * 2 + b * 3 + c * 5) / 10;
-        printf("%.1f\n", media);
-    }
-
-    return 0;
+int main()
+{
+	
+	
+	int i, I=1, J=60;
+	
+	for(i=0;i<12+1;i++)
+		printf("I=%d J=%d\n", I+(i*3), J-(i*5));
+		
+	
+	return 0;
 }
