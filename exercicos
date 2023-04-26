@@ -1,14 +1,13 @@
 #include <stdio.h>
 
-int main()
-{
-	
-	
-	int i, I=1, J=60;
-	
-	for(i=0;i<12+1;i++)
-		printf("I=%d J=%d\n", I+(i*3), J-(i*5));
-		
-	
-	return 0;
+int main() {
+    int i, j;
+
+    for(i = 1; i <= 9; i += 2) { 
+        for(j = 7; j >= 5; j--) { 
+            printf("I=%d J=%d\n", i, j);
+        }
+    }
+
+    return 0;
 }
